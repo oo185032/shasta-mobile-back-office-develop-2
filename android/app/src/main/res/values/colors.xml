@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_screen_background">#3C4CE4</color>
+    <color name="splash_screen_text">#FFFFFF</color>
+    <color name="calendar_header">#5565FD</color>
+    <color name="calendar_text">#000000</color>
+    <color name="calendar_text_primery">#000000</color>
+</resources>

@@ -1,0 +1,266 @@
+{
+  "login": {
+    "signIn": "Sign In",
+    "username": "Username",
+    "usernameLabel": "Username or Email",
+    "password": "Password",
+    "moreOptions": "More Options..."
+  },
+  "additionalDetails": {
+    "additionalDetailsTitle": "Additional Item Details",
+    "packSize": "Pack/Size",
+    "location": "Location"
+  },
+  "appOptions": {
+    "settings": "Settings",
+    "organization": "Organization",
+    "enterpriseUnit": "Enterprise Unit",
+    "dev": "Dev",
+    "staging": "Staging",
+    "production": "Production",
+    "save": "Save"
+  },
+  "tabs": {
+    "home": "Home",
+    "reporting": "Reporting",
+    "more": "More"
+  },
+  "barcodeScanner": {
+    "scanItem": "Scan Item",
+    "scanShelfTag": "Scan Shelf Tag",
+    "cameraPermissionTitle": "Permission to use camera",
+    "cameraPermissionMessage": "We need your permission to use your camera",
+    "cameraPermissionAccept": "Okay",
+    "cameraPermissionDecline": "Cancel",
+    "dashboardButtonTitle": "Go to Dashboard",
+    "manualScanButtonTitle": "Manual Scan",
+    "scanningProgress": "Scanning in progress...",
+    "priceReleaseMessage": "Price Released to POS"
+  },
+  "common": {
+    "department": "Department",
+    "labelQuantity": "Label Quantity",
+    "price": "Price",
+    "priceConversion": "{{ value, currency, USD }}",
+    "priceWithQuantity": "{{quantity}} for {{value, currency, USD}}"
+  },
+  "currentPrice": {
+    "header": "Current Price",
+    "dateFormat": "{{date, MM/DD/YYYY}}",
+    "priceConversion": "{{ value, currency, USD }}"
+  },
+  "dashboard": {
+    "greeting": "Hi, James D.",
+    "releasePrice": "Release Price to POS",
+    "priceVerify": "Price Verification",
+    "reduceToClear": "Reduce To Clear",
+    "batchRelease": "Batch Release",
+    "stockCounts": "Stock Counts",
+    "editItemAttributes": "Edit Item Attributes",
+    "addNewItem": "Add New Item",
+    "createUserDocument": "Create User Document",
+    "addItemToUserDoc": "Add Item To User Document",
+    "beginATask": "Begin A Task",
+    "inventoryAdjustments": "Inventory Adjustments"
+  },
+  "dateRange": {
+    "editDateRange": "Edit Date Range",
+    "start": "Start",
+    "end": "End",
+    "selectDate": "Select Date",
+    "dateFormat": "{{date, MM/DD/YYYY}}",
+    "dateFormatShort": "{{date, MM/DD}}",
+    "showing": "Showing"
+  },
+  "editItem": {
+    "itemFlags": "Item Flags",
+    "additionalItemDetails": "Additional Item Details",
+    "title": "Edit Item",
+    "upc": "UPC",
+    "sku": "SKU",
+    "unsaved_alert_header": "Unsaved Changes",
+    "unsaved_alert_message": "Changes you made will not be saved. Are you sure you want to leave?",
+    "itemDescription": "Item Description",
+    "selectDepartment": "Select Department",
+    "pack": "Pack",
+    "size": "Size",
+    "randomWeight": "Random Weight",
+    "taxability": "Taxability",
+    "timeRestrictions": "Time Restrictions",
+    "ageRestrictions": "Age Restrictions",
+    "foodStampEligible": "Food Stamp Eligible",
+    "saveChanges": "Save Changes",
+    "saveAndPrintTag": "Save & Print Tag",
+    "savedMessage": "Changes saved.",
+    "saveError": "Saving error. Please try again.",
+    "getPricesError": "Error while retrieving prices."
+  },
+  "inProgress": {
+    "loading": "Loading..."
+  },
+  "itemDetails": {
+    "scanSuccess": "Scan Successful",
+    "suspend": "Suspend",
+    "applyPrice": "Apply Price",
+    "title": "Release Price to POS"
+  },
+  "manualScan": {
+    "title": "Manual Scan",
+    "scanningProgress": "Scanning in progress...",
+    "enterBarcode": "Enter Barcode",
+    "barcode": "Barcode",
+    "cancel": "Cancel",
+    "search": "Search"
+  },
+  "priceDetails": {
+    "unlimited": "Unlimited",
+    "dateFormat": "{{date, MM/DD/YYYY}}",
+    "priceConversion": "{{ value, currency, USD }}",
+    "storeOverride": "Store Override"
+  },
+  "priceOverride": {
+    "priceMultiple": "Price Multiple",
+    "title": "Price Override",
+    "priceOverride": "Price Override",
+    "itemQuantity": "Item Quantity",
+    "submitAndPrint": "Submit Price and Print Tag",
+    "currency": " ($)"
+  },
+  "priceOverrideDateRange": {
+    "start": "Start",
+    "selectStartDate": "Select Start Date",
+    "end": "End",
+    "selectEndDate": "Select End Date",
+    "dateFormat": "{{date, MM/DD/YYYY}}"
+  },
+  "priceVerify": {
+    "title": "Price Verify",
+    "priceOverride": "Price Override",
+    "requestShelfTag": "Request Shelf Tag"
+  },
+  "promotionPrice": {
+    "promotionPrice": "Promotion Price",
+    "batch": "Batch",
+    "dateFormat": "{{date, MM/DD/YYYY}}",
+    "priceConversion": "{{ value, currency, USD }}"
+  },
+  "scanFail": {
+    "title": "Scan Item",
+    "scanFailed": "Item Not Found in Catalog.",
+    "manualScan": "Manually scan item",
+    "scanNextItem": "Scan Next Item"
+  },
+  "shelfTag": {
+    "title": "Request Shelf Tag",
+    "price": "Price",
+    "subtitle": "Item POS Desc Example",
+    "quantity": "Label Quantity",
+    "labelFormat": "Select Label Format",
+    "printLocation": "Select Print Location",
+    "submitButton": "Print Shelf Tag",
+    "saveProgress": "Saving in progress...",
+    "upc_duplicate_error_header": "Enter New UPC",
+    "upc_duplicate_error_message": "This UPC is already in use. You must assign a new UPC in order to save this item."
+  },
+  "editItemShelfTag": {
+    "title": "Request Shelf Tag",
+    "labelFormat": "Label Format",
+    "printLocation": "Print Location",
+    "submitButton": "Print Shelf Tag"
+  },
+  "addNewItem": {
+    "title": "Add New Item",
+    "required": "Required*",
+    "placeholderUpc": "Enter UPC",
+    "placeholderSku": "Enter SKU",
+    "placeholderPosDescription": "Enter POS Description",
+    "placeholderItemDescription": "Enter Item Description",
+    "placeholderPack": "Enter Pack",
+    "placeholderPrice": "Enter Price",
+    "upc": "UPC*",
+    "sku": "SKU",
+    "posDescription": "POS Description*",
+    "itemDescription": "Item Description*",
+    "department": "Department*",
+    "category": "Category*",
+    "subCategory": "Select Sub Category*",
+    "pack": "Pack*",
+    "size": "Size*",
+    "price": "Price ($)*",
+    "priceMultiple": "Price Multiple*",
+    "startDate": "Price Start Date*",
+    "endDate": "Price End Date*",
+    "quantity": "Label Quantity",
+    "savePrint": "Save & Print Tag",
+    "saveItem": "Save Item",
+    "saveError": "Saving Error. Please Try Again. ",
+    "saveProgress": "Saving in progress...",
+    "unsaved_alert_header": "Leave without saving?",
+    "unsaved_alert_message": "If you leave now, all item information will be lost.",
+    "upc_duplicate_error_header": "Enter New UPC",
+    "upc_duplicate_error_message": "This UPC is already in use. You must assign a new UPC in order to save this item.",
+    "emptyUPC": "Enter a valid UPC",
+    "emptyPosDescription": "Enter a valid POS Description",
+    "emptyItemDescription": "Enter a valid Item Description",
+    "emptyPack": "Enter a valid Pack",
+    "emptyPrice": "Enter a valid Price",
+    "selectDepartment": "Select Department",
+    "selectCategory": "Select Category",
+    "selectSubCategory": "Select Sub Category",
+    "posDescriptionLimit": "Description cannot exceed 150 characters",
+    "itemDescriptionLimit": "Description cannot exceed 150 characters"
+  },
+  "itemAdded": {
+    "title": "Item Added",
+    "savedMessage": "Item successfully added. ",
+    "subtitle": "Item POS Desc Example",
+    "itemDescription": "Item Description",
+    "itemAttributes": "Department/Category/Sub Category",
+    "sku": "SKU",
+    "pack": "Pack",
+    "size": "Size",
+    "price": "Price",
+    "priceMultiple": "Price Multiple",
+    "startDate": "Price Start Date",
+    "endDate": "Price End Date",
+    "returnButton": "Return to Price Verify"
+  },
+  "stockCounts": {
+    "header": "Choose Count Type",
+    "freeCount": "Free Count",
+    "fullCount": "Full Count",
+    "cancel": "Cancel",
+    "update": "Update",
+    "unableToCreate": "Unable to create a document"
+  },
+  "upcomingPrices": {
+    "upcomingPrices": "Upcoming Prices",
+    "noPrices": "No future or pending prices found",
+    "unlimited": "Unlimited",
+    "dateFormat": "{{date, MM/DD/YYYY}}",
+    "priceConversion": "{{ value, currency, USD }}",
+    "priceWithQuantity": "{{quantity}} for {{value, currency, USD}}"
+  },
+  "appHeader": {
+    "manualScan": "Manual Scan",
+    "quickTools": "Quick Tools",
+    "close": "Close",
+    "editItem": "Edit Item"
+  },
+  "customAlertModal": {
+    "primaryBtn": "Leave",
+    "secondaryBtn": "Continue Editing"
+  },
+  "errorAlertModal": {
+    "okBtn": "OK"
+  },
+  "freeCountList": {
+    "itemList": "Item List",
+    "searchAndFilter": "Search & Filter",
+    "complete": "Complete",
+    "scanFirstItem": "Scan first item to begin"
+  },
+  "inventoryAdjustmentsList": {
+    "inventoryAdjustments": "Inventory Adjustments"
+  }
+}

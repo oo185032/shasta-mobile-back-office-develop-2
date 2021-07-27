@@ -1,0 +1,124 @@
+{
+  "name": "MobileMerchandising",
+  "rnpm": {
+    "assets": [
+      "src/assets/fonts"
+    ]
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --config .prettierrc --write \"src/**/*.ts\" \"src/**/*.tsx\""
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.4",
+    "@react-native-community/datetimepicker": "^3.4.3",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-picker/picker": "^1.16.1",
+    "@react-navigation/bottom-tabs": "^5.11.8",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "appcenter": "4.0.2",
+    "appcenter-analytics": "4.0.2",
+    "appcenter-crashes": "4.0.2",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "i18next": "^20.2.2",
+    "i18next-fs-backend": "^1.1.1",
+    "i18next-react-native-language-detector": "^1.0.2",
+    "launchdarkly-react-native-client-sdk": "^3.2.2",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-i18next": "^11.8.15",
+    "react-native": "^0.63.4",
+    "react-native-barcode-mask": "^1.2.4",
+    "react-native-base64": "^0.2.1",
+    "react-native-camera": "^3.42.2",
+    "react-native-config": "^1.4.2",
+    "react-native-datawedge-intents": "^0.1.6",
+    "react-native-dropdown-picker": "^5.1.15",
+    "react-native-elements": "^3.4.1",
+    "react-native-gesture-handler": "^1.10.0",
+    "react-native-image-capinsets-next": "^0.6.1",
+    "react-native-indicators": "^0.17.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.4",
+    "react-native-locale-detector": "^1.0.1",
+    "react-native-ratings": "^8.1.0",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.18.1",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-swipe-list-view": "^3.2.7",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.2",
+    "realm": "^10.6.0",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "ts-jest": "^25.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/i18next-fs-backend": "^1.0.0",
+    "@types/jest": "^25.2.3",
+    "@types/react-native": "^0.63.2",
+    "@types/react-native-base64": "^0.1.0",
+    "@types/react-native-indicators": "^0.16.0",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "babel-jest": "^25.1.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "husky": "^4.2.5",
+    "jest": "^25.1.0",
+    "lint-staged": "^11.0.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier": "^2.3.2",
+    "react-test-renderer": "16.13.1",
+    "redux-devtools": "^3.7.0",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint --ext .ts,.tsx,.js --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

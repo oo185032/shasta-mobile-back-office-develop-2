@@ -1,0 +1,56 @@
+name: Build Android
+on:
+  push:
+    branches:
+      - develop
+env:
+  NPM_TOKEN: ${{ secrets.SHASTA_NPM_TOKEN }}
+jobs:
+  install-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: inject_npmrc_auth
+        name: Inject auth into .npmrc
+        run: |
+          echo '
+          _auth=$${{ env.NPM_TOKEN }}' >> .npmrc
+      - name: Install npm dependencies
+        run: |
+          npm install
+
+  build-android:
+    needs: install-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: inject_npmrc_auth
+        name: Inject auth into .npmrc
+        run: |
+          echo '
+          _auth=$${{ env.NPM_TOKEN }}' >> .npmrc
+      - name: Install npm dependencies
+        run: |
+          npm install
+      - name: Run Unit Tests
+        run: |
+          npm test
+      - name: Build Android Release
+        env:
+          SIGNING_KEY: $${{ secrets.ANDROID_KEYSTORE }}
+        run: |
+          cd android && ./gradlew assembleRelease
+      - name: Upload APK in Github
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-release.apk
+          path: app/build/outputs/apk/release
+      - name: Upload APK in App Center
+        uses: wzieba/AppCenter-Github-Action@v1.3.2
+        with:
+          appName: NCR-Retail-Shasta/Shasha-Mobile-Back-Office
+          token: ${{ secrets.APPCENTER_API_TOKEN }}
+          group: Collaborators;ProductTeam
+          file: android/app/build/outputs/apk/release/app-release.apk
+          notifyTesters: true
+          debug: false

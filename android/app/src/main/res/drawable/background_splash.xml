@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/splash_screen_background"/>
+
+    <item
+        android:width="74dp"
+        android:height="74dp"
+        android:drawable="@drawable/splash_icon"
+        android:gravity="center_horizontal"
+        android:top="190dp"/>
+
+    <item
+        android:width="259dp"
+        android:height="29dp"
+        android:drawable="@drawable/splash_text"
+        android:gravity="center_horizontal"
+        android:top="285dp"/>
+</layer-list>

@@ -1,0 +1,232 @@
+
+{
+    "login": {
+      "signIn": "दाखिल करना",
+      "username": "उपयोगकर्ता नाम",
+      "usernameLabel": "उपयोगकर्ता का नाम या ईमेल",
+      "password": "कुंजिका",
+      "moreOptions": "अधिक विकल्प..."
+    },
+    "additionalDetails": {
+      "additionalDetailsTitle": "अतिरिक्त आइटम विवरण",
+      "packSize": "पैक का आकार",
+      "department": "विभाग",
+      "location": "स्थान"
+    },
+    "appOptions": {
+      "settings": "समायोजन",
+      "organization": "संगठन",
+      "enterpriseUnit": "उद्यम इकाई",
+      "dev": "देव",
+      "staging": "मचान",
+      "production": "उत्पादन",
+      "save": "सहेजें"
+    },
+    "tabs": {
+      "home": "घर",
+      "reporting": "रिपोर्टिंग",
+      "more": "अधिक"
+    },
+    "barcodeScanner": {
+      "scanItem": "स्कैन आइटम",
+      "scanShelfTag": "स्कैन शेल्फ टैग",
+      "cameraPermissionTitle": "कैमरे का उपयोग करने की अनुमति",
+      "cameraPermissionMessage": "आपके कैमरे का उपयोग करने के लिए हमें आपकी अनुमति चाहिए",
+      "cameraPermissionAccept": "अच्छा जी",
+      "cameraPermissionDecline": "रद्द करना",
+      "dashboardButtonTitle": "डैशबोर्ड पर जाएं",
+      "manualScanButtonTitle": "मैनुअल स्कैन",
+      "scanningProgress": "स्कैन किया जा रहा है...",
+      "priceReleaseMessage": "पीओएस को जारी की गई कीमत"
+    },
+    "dashboard": {
+      "greeting": "हाय, जेम्स डी।",
+      "releasePrice": "पीओएस को रिलीज मूल्य",
+      "priceVerify": "मूल्य सत्यापन",
+      "reduceToClear": "कम करने के लिए साफ़ करें",
+      "batchRelease": "बैच रिलीज",
+      "stockCounts": "स्टॉक मायने रखता है",
+      "editItemAttributes": "आइटम गुण संपादित करें",
+      "addNewItem": "नए सामान को जोड़ो",
+      "createUserDocument": "उपयोगकर्ता दस्तावेज़ बनाएँ",
+      "addItemToUserDoc": "उपयोगकर्ता दस्तावेज़ में आइटम जोड़ें",
+      "beginATask": "एक कार्य शुरू करें"
+    },
+    "currentPrice": {
+      "header": "मौजूदा कीमत",
+      "dateFormat": "{{date, DD/MM/YYYY}}",
+      "priceConversion" : "{{ value, currency, INR }}"
+    },
+    "dateRange": {
+      "editDateRange": "दिनांक सीमा संपादित करें",
+      "start": "शुरू",
+      "end": "समाप्त",
+      "selectDate": "तारीख़ चुनें",
+      "dateFormat": "{{date, DD/MM/YYYY}}",
+      "dateFormatShort": "{{date, MM/DD}}",
+      "showing": "दिखा"
+    },
+    "editItem": {
+      "title": "संपादित आइटम",
+      "enterUPC": "यूपीसी दर्ज करें",
+      "upc": "यूपीसी",
+      "sku": "एसकेयू",
+      "unsaved_alert_header": "सहेजे नहीं गए परिवर्तन",
+      "unsaved_alert_message": "आपके द्वारा किए गए परिवर्तन सहेजे नहीं जाएंगे. क्या पक्का आप इसे छोड़ना चाहते हैं?",
+      "enterItemDescription": "आइटम विवरण दर्ज करें",
+      "itemDescription": "आइटम विवरण",
+      "selectDepartment": "विभाग का चयन करें",
+      "pack": "पैक",
+      "size": "आकार",
+      "wic": "डब्ल्यूआईसी",
+      "visualVerify": "दृश्य सत्यापन",
+      "randomWeight": "यादृच्छिक वजन",
+      "taxability": "कर लग सकना",
+      "timeRestriction": "समय प्रतिबंध",
+      "ageRestriction": "उम्र प्रतिबंध",    
+      "foodStampEligible": "फ़ूड स्टैम्प योग्य",
+      "createOverridePrice": "ओवरराइड मूल्य बनाएं",
+      "price": "कीमत",
+      "saveChanges": "परिवर्तनों को सुरक्षित करें",
+      "saveAndPrintTag": "टैग सहेजें और प्रिंट करें"
+    },
+    "inProgress": {
+      "loading": "लोड हो रहा है..."
+    },
+    "itemDetails": {
+      "scanSuccess": "स्कैन सफल",
+      "suspend": "निलंबित करें",
+      "applyPrice": "कीमत लागू करें",
+      "title": "पीओएस के लिए रिलीज मूल्य"
+    },
+    "manualScan": {
+      "title": "मैनुअल स्कैन",
+      "scanningProgress": "स्कैन किया जा रहा है...",
+      "enterBarcode": "बारकोड दर्ज करें",
+      "barcode": "बारकोड",
+      "cancel": "रद्द करना",
+      "search": "खोज"
+    },
+    "priceDetails": {
+      "unlimited": "असीमित",
+      "dateFormat": "{{date, DD/MM/YYYY}}",
+      "priceConversion" : "{{ value, currency, INR }}"
+
+    },
+    "priceOverride": {
+      "title": "मूल्य ओवरराइड",
+      "priceOverride": "मूल्य ओवरराइड दर्ज करें",
+      "itemQuantity": "वस्तु की मात्रा",
+      "labelQuantity": "लेबल मात्रा",
+      "submitAndPrint": "मूल्य जमा करें और टैग प्रिंट करें",
+      "currency": " (₹)"
+    },
+    "priceOverrideDateRange": {
+      "start": "शुरू",
+      "selectDateRange": "प्रारंभ तिथि चुनें",
+      "end": "समाप्त",
+      "selectEndDate": "समाप्ति तिथि चुनें",
+      "dateFormat": "{{date, DD/MM/YYYY}}"
+    },
+    "priceVerify": {
+      "title": "मूल्य सत्यापित करें",
+      "createPriceOverride": "मूल्य ओवरराइड बनाएं",
+      "requestShelfTag": "अनुरोध शेल्फ टैग",
+      "price": "कीमत",
+      "priceConversion" : "{{ value, currency, INR }}"
+    },
+    "promotionPrice": {
+      "promotionPrice": "प्रोन्नति मूल्य",
+      "batch": "जत्था",
+      "dateFormat": "{{date, DD/MM/YYYY}}",
+      "priceConversion" : "{{ value, currency, INR }}"
+    },
+    "scanFail": {
+      "title": "स्कैन आइटम",
+      "scanFailed": "स्कैन विफल, आइटम कैटलॉग में नहीं मिला।",
+      "manualScan": "आइटम को मैन्युअल रूप से स्कैन करें",
+      "scanNextItem": "अगला आइटम स्कैन करें"
+    },
+    "shelfTag": {
+      "title": "अनुरोध शेल्फ टैग",
+      "quantity": "लेबल मात्रा",
+      "labelFormat": "लेबल प्रारूप का चयन करें",
+      "printLocation": "प्रिंट स्थान चुनें",
+      "submitButton": "मान्य करें और प्रिंट करें"
+    },
+    "addNewItem": {
+      "title": "नए सामान को जोड़ो",
+      "required": "अपेक्षित*",
+      "placeholderUpc": "यूपीसी दर्ज करें",
+      "placeholderSku": "एसकेयू दर्ज करें",
+      "placeholderPosDescription": "पीओएस विवरण दर्ज करें",
+      "placeholderItemDescription": "आइटम विवरण दर्ज करें",
+      "placeholderPack": "पैक दर्ज करें",
+      "placeholderPrice": "उद्यम",
+      "upc": "यूपीसी*",
+      "sku": "एसकेयू",
+      "posDescription": "पीओएस विवरण*",
+      "itemDescription": "आइटम विवरण*",
+      "department": "विभाग*",
+      "pack": "पैक*",
+      "size": "आकार*",
+      "price": "कीमत (₹)*",
+      "priceMultiple": "मूल्य एकाधिक*",
+      "startDate": "मूल्य प्रारंभ तिथि*",
+      "endDate": "मूल्य समाप्ति तिथि*",
+      "quantity": "लेबल मात्रा",
+      "savePrint": "टैग सहेजें और प्रिंट करें",
+      "saveItem": "आइटम सहेजें",
+      "saveError": "सहेजा जा रहा है त्रुटि। कृपया पुन: प्रयास करें। ",
+      "saveProgress": "सहेजा जा रहा है..."
+    },
+    "itemAdded": {
+      "title": "आइटम जोड़ा गया",
+      "savedMessage": "आइटम सफलतापूर्वक जोड़ा गया। ",
+      "subtitle": "आइटम पीओएस विवरण उदाहरण",
+      "itemDescription": "आइटम विवरण",
+      "itemAttributes": "विभाग/श्रेणी/उप श्रेणी",
+      "sku": "एसकेयू",
+      "pack": "पैक",
+      "size": "आकार",
+      "price": "कीमत",
+      "priceMultiple": "मूल्य एकाधिक",
+      "startDate": "मूल्य प्रारंभ तिथि",
+      "endDate": "मूल्य समाप्ति तिथि",
+      "returnButton": "मूल्य सत्यापन पर लौटें"
+    },
+    "stockCounts": {
+      "header": "गणना प्रकार चुनें",
+      "freeCount": "फ्री काउंट",
+      "fullCount": "पूर्ण गणना",
+      "cancel": "रद्द करना",
+      "update": "अपडेट करें",
+      "unableToCreate": "दस्तावेज़ बनाने में असमर्थ"
+    },
+    "upcomingPrices": {
+      "upcomingPrices": "आगामी कीमतें",
+      "noPrices": "कोई भविष्य या लंबित मूल्य नहीं मिला",
+      "unlimited": "असीमित",
+      "dateFormat": "{{date, MM/DD/YYYY}}",
+      "priceConversion" : "{{ value, currency, INR }}"
+    },
+    "appHeader": {
+      "manualScan": "मैनुअल स्कैन",
+      "quickTools": "त्वरित उपकरण",
+      "close": "बंद करे",
+      "editItem":"संपादित आइटम"
+    },
+    "customAlertModal": {
+      "heading": "सहेजे नहीं गए परिवर्तन",
+      "msgBody": "आपके द्वारा किए गए परिवर्तन सहेजे नहीं जाएंगे। क्या पक्का आप इसे छोड़ना चाहते हैं?",
+      "primaryBtn": "छोड़ना",
+      "secondaryBtn":"संपादन जारी रखें"
+    },
+    "freeCountList":{
+      "itemList":"सामान की सूची",
+      "searchAndFilter":"खोज और फ़िल्टर",
+      "complete":"पूर्ण",
+      "scanFirstItem":"शुरू करने के लिए पहले आइटम को स्कैन करें"
+    }
+}
+

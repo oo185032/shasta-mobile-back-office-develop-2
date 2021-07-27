@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://ncrdev-dev.apigee.net/retail-back-office-mobile-bff",
+  "appId": "inv-mobile-sync-ppqki", //this is for inventory
+  "mobileKey": "mob-661cf6fc-709c-4ba0-96ed-2b160c6232ef" //this is for Launch Darkly
+}

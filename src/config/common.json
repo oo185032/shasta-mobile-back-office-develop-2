@@ -1,0 +1,20 @@
+{
+  "endpoints": {
+    "login": "/api/common/v1/login",
+    "inventoryCreateDocument": "/api/inventory/v1/documents",
+    "item": "/api/common/v1/item",
+    "itemDetails": "/api/common/v1/item/details",
+    "itemPrices": "/api/merchandising/v1/item-prices",
+    "itemPricesOverride": "/api/merchandising/v1/item-prices/override",
+    "itemPricesImmediateRelease": "/api/merchandising/v1/item-prices/immediate-release",
+    "itemAttributes": "/api/common/v1/item/attributes",
+    "itemSearch": "/api/common/v1/item/search",
+    "departments": "/api/common/v1/departments"
+  },
+  "defaults": {
+    "organization": "ret-shasta",
+    "enterpriseUnit": "3c4581dddd7d427eaf72f9f17649d41f",
+    "environment": "staging"
+  },
+  "itemPricesOffsetEndDate": 6
+}

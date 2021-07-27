@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://shasta-mobile-bff-prod.ncrsaas.com",
+  "appId": "", //TODO: please update this for production, this is for inventory work
+  "mobileKey": "" //TODO: Please update this for production, this is for Launch Darkly
+
+}

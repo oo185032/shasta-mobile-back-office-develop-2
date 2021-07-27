@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://ncrstag-stag.apigee.net/retail-back-office-mobile-bff",
+  "appId": "inv-merch-sync-stg-gmcxe", //this is for inventory work
+  "mobileKey": "mob-74325445-373c-4e2e-ab33-30b17ce09061" //this is for Launch Darkly
+
+}
